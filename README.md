@@ -1,12 +1,12 @@
-[![Build Status](https://travis-ci.org/EOSIO/eosjs-fcbuffer.svg?branch=master)](https://travis-ci.org/EOSIO/eosjs-fcbuffer)
-[![Coverage Status](https://coveralls.io/repos/github/EOSIO/eosjs-fcbuffer/badge.svg?branch=master)](https://coveralls.io/github/EOSIO/eosjs-fcbuffer?branch=master)
+[![Build Status](https://travis-ci.org/ARISENIO/arisenjs-fcbuffer.svg?branch=master)](https://travis-ci.org/ARISENIO/arisenjs-fcbuffer)
+[![Coverage Status](https://coveralls.io/repos/github/ARISENIO/arisenjs-fcbuffer/badge.svg?branch=master)](https://coveralls.io/github/ARISENIO/arisenjs-fcbuffer?branch=master)
 [![NPM](https://img.shields.io/npm/v/fcbuffer.svg)](https://www.npmjs.org/package/fcbuffer)
 
 # FC Buffer
 
 Serialization library geared towards immutable data storage such as blockchains.
 
-For EOS compatible implementation use this library from [eosjs](https://github.com/eosio/eosjs) instead.
+For ARISEN compatible implementation use this library from [arisenjs](https://github.com/arisenio/arisenjs) instead.
 
 FC Buffer is a recent refactor from serialization code used in Bitshares and
 Steem.  Some of the serialization code was reduced and the definitions language
@@ -97,7 +97,7 @@ permission_level.toObject()
 # References
 
 - Built-in Types: [types.js](./src/types.js)
-- EOS Definitions: [schema](https://github.com/EOSIO/eosjs-json/blob/master/schema)
+- ARISEN Definitions: [schema](https://github.com/ARISENIO/arisenjs-json/blob/master/schema)
 
 # Environment
 

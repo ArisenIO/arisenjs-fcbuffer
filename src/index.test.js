@@ -333,9 +333,9 @@ describe('Override', function () {
     }
     const {structs, errors} = create(definitions, Types({override}))
     assert.equal(errors.length, 0)
-    const asset = structs.asset.fromObject('1 EOS')
-    assert.deepEqual(asset, {amount: 1, symbol: 'EOS'})
-    assert.deepEqual('1 EOS', structs.asset.toObject(asset))
+    const asset = structs.asset.fromObject('1 RSN')
+    assert.deepEqual(asset, {amount: 1, symbol: 'RSN'})
+    assert.deepEqual('1 RSN', structs.asset.toObject(asset))
   })
 
   it('field', function () {
@@ -421,8 +421,8 @@ describe('Custom Type', function () {
 
     const {structs, errors, fromBuffer, toBuffer} = Fcbuffer(definitions, {customTypes})
     assert.equal(errors.length, 0)
-    const asset = structs.asset.fromObject({amount: '1', symbol: 'EOS'})
-    assert.deepEqual(asset, {amount: '1.0000', symbol: 'EOS'})
+    const asset = structs.asset.fromObject({amount: '1', symbol: 'RSN'})
+    assert.deepEqual(asset, {amount: '1.0000', symbol: 'RSN'})
 
     const buf = toBuffer('asset', asset)
     assert.deepEqual(fromBuffer('asset', buf), asset)

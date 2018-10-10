@@ -1,7 +1,7 @@
 {
-  "name": "fcbuffer",
+  "name": "arisenjs-fcbuffer",
   "description": "Serialization library geared towards immutable data storage such as blockchains.",
-  "version": "2.2.2",
+  "version": "1.0.0",
   "main": "lib/index.js",
   "files": [
     "README.md",
@@ -21,7 +21,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/EOSIO/fcbuffer.git"
+    "url": "git://github.com/ARISENIO/fcbuffer.git"
   },
   "dependencies": {
     "bn.js": "^4.11.8",
